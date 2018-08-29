@@ -3,6 +3,15 @@
 m = massa benda (600 kg)
 a = percepatan benda (2 m/s2)
 
+STORE 'm' with 600
+STORE 'a' with 2
+STORE 'ΣF' without any value
+
+CALCULATE 'm' times 'a'
+SET 'ΣF' value with calculation result
+
+DISPLAY 'ΣF'
+
 m = 600;
 a = 2;
 ΣF = 600 * 2;

@@ -1,0 +1,45 @@
+// Hukum Newton II
+ΣF = resultan gaya (Newton)
+m = massa benda (600 kg)
+a = percepatan benda (2 m/s2)
+
+m = 600;
+a = 2;
+ΣF = 600 * 2;
+console.log(ΣF);
+
+// Tahun kabisat 
+// 1.Jika tahun habis di bagi 4 dan tidak habis di bagi 100
+// 2.Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+//maka apakah tahun 2000 adalah tahun kabisat?
+
+var tahunKabisat = 2000
+
+if(2000 % 400 == 0){
+  console.log ('true');
+ }else if((2000 % 100 == 0) && (2000 % 400 == 0)) {
+  console.log ('true');
+ } else {
+  console.log ('false');
+ }
+
+ // Jadi pernyataan no.2 adalah benar
+
+ // Laundry Day
+
+var start = 0;
+ var limit = 20;
+ while (start < limit) {
+   console.log('masukkan baju ke mesin cuci');
+   start = start + 1
+ }
+ console.log('selesai');
+
+ // Periksa kuku
+
+ var murid = '40';
+ if (murid = gunting kuku) {
+   console.log (dipuji guru);
+ } else (murid = tidak gunting kuku) {
+   console.log (dihukum guru);
+ }

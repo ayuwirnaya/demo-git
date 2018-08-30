@@ -45,10 +45,10 @@ var start = 0;
  console.log('selesai');
 
  // Periksa kuku
+var guntingKuku = 'dipuji guru';
+var kukuPanjang = 'dihukum guru';
 
- var murid = '40';
- if (murid = gunting kuku) {
-   console.log (dipuji guru);
- } else (murid = tidak gunting kuku) {
-   console.log (dihukum guru);
- }
+   console.log ('Apa yang guru lakukan bila murid menggunting kukunya?', guntingKuku);
+
+   console.log ('Apa yang terjadi bila murid tak gunting kuku?', kukuPanjang);
+ 

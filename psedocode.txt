@@ -33,9 +33,12 @@ if ((2000%4=0 and 2000%100!=0) or (2000%400=0))
 
 
  // 3.Laundry Day
-
-var start = 0;
- var limit = 20;
+1. tentukan dulu startnya dimulai dari 0
+2. kemudian tentukan limitnya yaitu 20
+3. setelah perulangan tulis stopnya
+STORE start = 0;
+STORE limit = 20;
+SET stop at limit
  while (start < limit) {
    console.log('masukkan baju ke mesin cuci');
    start = start + 1
@@ -43,8 +46,15 @@ var start = 0;
  console.log('selesai');
 
  // 4.Periksa kuku
-var guntingKuku = 'dipuji guru';
-var kukuPanjang = 'dihukum guru';
+ 1. SET variable untuk murid yang menggunting kuku dan tidak menggunting kuku
+    var guntingKuku
+    var kukuPanjang
+
+ 2. SET value atau result dari variable
+ 3. kemudian print console.log dari variable
+ 
+   var guntingKuku = 'dipuji guru';
+   var kukuPanjang = 'dihukum guru';
 
    console.log ('Apa yang guru lakukan bila murid menggunting kukunya?', guntingKuku);
 

@@ -13,5 +13,12 @@ function calculateMultiply(num1, num2) {
 }
 console.log (calculateMultiply(5,6));
 
+3//
+
+  var name = 'Agus';
+  var age = '30';
+  var address = 'Jln. Malioboro, Yogjakarta';
+  var hobby = 'gaming';
+  console.log('Nama saya:  '+name+', umur saya: '+age+', alamat saya: '+address+', hobi saya yaitu: '+hobby+'');
 
 

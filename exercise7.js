@@ -9,12 +9,17 @@ while (counter < 5) {
 
 // 2. Menyusun Barisan Bintang Dengan Nested Looping
 
-var rows2 = '*****';
-var counter = 0;
-while (counter < 5) {
-  console.log(rows2)
-  counter = counter + 1
+var rows2 = 5;
+
+for (var i = 0; i < 5; i = i + 1) {
+  var rows2 = ''
+  for (var j = 0; j <= 5; j = j + 1) {
+    rows2 = rows2 += '*';
+  }
+  console.log(rows2);
+  rows2 = '';
 }
+
 
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
 

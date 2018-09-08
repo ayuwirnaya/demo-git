@@ -1,20 +1,20 @@
 // 1. Menyusun Barisan Bintang
 
 var rows1 = '*';
-var counter = 0;
-while (counter < 5) {
-  console.log(rows1)
-  counter = counter + 1
+
+for (var i = 0; i <= 5; i++) {
+
+  console.log(rows1);
 }
 
 // 2. Menyusun Barisan Bintang Dengan Nested Looping
 
 var rows2 = 5;
 
-for (var i = 0; i < 5; i = i + 1) {
-  var rows2 = ''
-  for (var j = 0; j <= 5; j = j + 1) {
-    rows2 = rows2 += '*';
+for (var i = 0; i < 5; i++) {
+  var rows2 = '';
+  for (var j = 0; j < 5; j++) {
+    rows2 += '*';
   }
   console.log(rows2);
   rows2 = '';
@@ -36,5 +36,4 @@ function barisanBintang(height) {
     console.log(rows3);
   }
 }
-
 barisanBintang(5);

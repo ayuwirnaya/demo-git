@@ -17,14 +17,14 @@ console.log (calculateMultiply(5,6));
 
 
   var fullSentence = processSentence(name,age,address,hobby)
-  var name = 'Agus,';
-  var age = '30,';
-  var address = 'Jln. Malioboro, Yogjakarta,';
-  var hobby = 'gaming,';
+  var name = 'Agus';
+  var age = '30';
+  var address = 'Jln. Malioboro, Yogjakarta';
+  var hobby = 'gaming';
   function processSentence() {
     return fullSentence + processSentence;
     }
 
-console.log('Nama saya '  +name, 'Usia saya '  +age, 'Alamat saya di ' +address, 'Hobby saya ' +hobby,);
+console.log('Nama saya '  +name, 'Usia saya '  +age, 'Alamat saya di ' +address, 'Hobby saya ' +hobby);
 
 

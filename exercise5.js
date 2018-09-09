@@ -8,16 +8,18 @@ var fifth = 'I';
 var sixth = 'love';
 var seventh = 'it!';
 
-console.log(word.concat(second, third, fourth, fifth, sixth, seventh));
+console.log(word.concat(second,third,fourth,fifth,sixth,seventh));
 
 // 2. Index Accessing - 1 by 1
 
 var word = 'wow JavaScript is so cool';
-var exampleFirstWord = word[0] + word[1] + word[2];
-var secondWord = word[3] + word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13] + word[14];
-var thirdWord = word[15] + word[16];
-var fourthWord = word[17] + word[18] + word[19];
-var fifthWord = word[20] + word[21] + word[22] + word[23] + word[24];
+var str = word.split(" ");
+console.log(str);
+var exampleFirstWord = str[0]
+var secondWord = str[1]
+var thirdWord = str[2]
+var fourthWord = str[3]
+var fifthWord = str[4]
 
 console.log('First Word: ' + exampleFirstWord);
 console.log('Second Word: ' + secondWord);
@@ -26,6 +28,7 @@ console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
 
 // 3. Breaking Sentence (Again) using Substring
+
 
 var word3 = 'wow JavaScript is so cool';
 var exampleFirstWord = word3.substring(0, 3);
@@ -60,4 +63,3 @@ console.log('Second Word: ' + secondWord + ', with length: ' + isecondWord);
 console.log('Third Word: ' + thirdWord + ', with length: ' + ithirdWord);
 console.log('Fourth Word: ' + fourthWord + ', with length: ' + ifourthWord);
 console.log('Fifth Word: ' + fifthWord +', with length: ' + ififthWord);
-

@@ -15,10 +15,16 @@ console.log (calculateMultiply(5,6));
 
 3//
 
-  var name = 'Agus';
-  var age = '30';
-  var address = 'Jln. Malioboro, Yogjakarta';
-  var hobby = 'gaming';
-  console.log('Nama saya:  '+name+', umur saya: '+age+', alamat saya: '+address+', hobi saya yaitu: '+hobby+'');
+
+  var fullSentence = processSentence(name,age,address,hobby)
+  var name = 'Agus,';
+  var age = '30,';
+  var address = 'Jln. Malioboro, Yogjakarta,';
+  var hobby = 'gaming,';
+  function processSentence() {
+    return fullSentence + processSentence;
+    }
+
+console.log('Nama saya '  +name, 'Usia saya '  +age, 'Alamat saya di ' +address, 'Hobby saya ' +hobby,);
 
 

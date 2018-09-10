@@ -1,42 +1,15 @@
 function balikKata(str) {
-    var array = str.split("");
-    array.reverse();
-    var result = array.join("");
-    return result;
+    var word = '';
+    for (var i = str.length - 1; i >= 0; i--) {
+        word += str[i];
     }
-    console.log(balikKata("Hello World and Coders"));
-
-function balikKata(str) {
-        var array = str.split("");
-        array.reverse();
-        var result = array.join("");
-        return result;
-        }
-    console.log(balikKata('John Doe')); 
-
-function balikKata(str) {
-        var array = str.split("");
-        array.reverse();
-        var result = array.join("");
-        return result;
-        }
-        console.log(balikKata('I am a bookworm'));
-
-function balikKata(str) {
-    var array = str.split("");
-    array.reverse();
-    var result = array.join("");
-    return result;
-    }
-    console.log(balikKata('Coding is my hobby'));
-
-function balikKata(str) {
-    var array = str.split("");
-    array.reverse();
-    var result = array.join("");
-    return result;
-    }
-    console.log(balikKata('Super'));
+    return word;
+}
+console.log(balikKata('Hello world and coders'));
+console.log(balikKata('John Doe')); // eoD nhoJ
+console.log(balikKata('I am a bookworm')); // mrowkoob a ma I
+console.log(balikKata('Coding is my hobby')); // ybboh ym si gnidoC
+console.log(balikKata('Super')); // repuS
     
  
   

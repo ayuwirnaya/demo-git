@@ -25,6 +25,6 @@ console.log (calculateMultiply(5,6));
     return fullSentence + processSentence;
     }
 
-console.log('Nama saya '  +name, 'Usia saya '  +age, 'Alamat saya di ' +address, 'Hobby saya ' +hobby);
+console.log('Nama saya '+name+', Usia saya  '+age+', Alamat saya di  '+address+', Hobby saya '+hobby+'');
 
 

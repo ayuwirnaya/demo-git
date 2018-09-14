@@ -1,17 +1,17 @@
 function cariModus(arr) {
-var arrModus = [], isSame = false;
+  var arrModus = [], angkaSama = false;
   for (var i = 0; i < arr.length; i++) {
     for (var j = i + 1; j < arr.length; j++) {
       if (arr[i] === arr[j]) {
-        isSame = true;
+        angkaSama = true;
         arrModus.push(arr[i]);
       } else {
-        isSame = false;
+        angkaSama = false;
       }
     }
   }
 
-  if (arrModus[0] === undefined || isSame) {
+  if (arrModus[0] === undefined || angkaSama) {
     return -1
   } else {
     return arrModus[0]

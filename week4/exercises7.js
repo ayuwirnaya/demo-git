@@ -8,9 +8,9 @@
 
 function digitPerkalianMinimum(angka) {
   var hasilJumlah; 
-      arr = []; 
-      arrString = '';
-      result = 0;
+  var arr = []; 
+  var arrString = '';
+  var result = 0;
 
   for (var i = 1; i <= angka; i++) {
     hasilJumlah = angka / i;
